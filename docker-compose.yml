@@ -1,0 +1,10 @@
+services:
+  customer-support:
+    build: .
+    ports:
+      - "8502:8501"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./faiss_index:/app/faiss_index
