@@ -1,0 +1,8 @@
+crewai
+python-dotenv
+duckduckgo-search
+langchain-community
+langchain-text-splitters
+langchain-openai
+faiss-cpu
+streamlit
